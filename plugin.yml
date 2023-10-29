@@ -1,0 +1,10 @@
+name: CompleteBottlePlugin
+main: fr.Boulldogo.CompleteBottlePlugin.Main
+author: Boulldogo 
+version: 1.0 
+commands: 
+  bottle: 
+    description: Permet de convertir l'xp qu'on a sur soi en bottle d'xp
+  xp-info: 
+    permission: completebottle.xpinfo
+    description: Permet d'avoir le nombre d'xp que le joueur à sur lui

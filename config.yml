@@ -1,0 +1,39 @@
+prefix: "&7[&cBottlePlugin&7]"
+inventory-full: "&cNous n'avons pas pu vous donner de bottle d'XP car votre inventaire est plein."
+no-permission: "&cVous n'avez pas la permission d'exécuter cette commande."
+#Placeholder : %level% > level necessary to have a bottle with the requested argument
+xp-not-high-level: "&cVous n'avez pas %level% niveaux d'xp."
+#Placeholder : %level% > level of the given bottle
+success-message: "&2Vous avez reçu une bouteille de %level% niveau d'XP."
+#Placeholder : %bottle-name% > Name of the used bottle, %level% > Level given with the bottle
+success-addxp-message: "&2Vous avez consommé une bouteille %bottle-name% &2et obtenu %level% niveaux d'xp !"
+#Placeholder : %maxlevel% > Maximum of level allow in the player experience ( args. max-level )
+max-level-message: "&cVous ne pouvez pas avoir plus de %maxlevel% niveaux d'XP sur vous."
+correct-usage-message: "&7Utilisation incorrecte de la commande. Utilisation : /bottle 10, 20, 30 ou 50"
+#Placeholder : %xp% > Number of experience points on the player
+xp-message: "&2Vous avez actuellement %xp% points d'xp sur vous."
+max-level: 150
+version: 1.0.0
+
+economy:
+  #set to 0 for disable economy system
+  cost-level-10-command: 100
+  cost-level-20-command: 160
+  cost-level-30-command: 200
+  cost-level-50-command: 400
+  #Placeholder : %price% > Money take on the player account when the player executed /bottle command
+  payment-successful: "&2Vous avez correctement été prélevé de %price%$ pour votre commande."
+  #Placeholder : %level% > Level request by the player on the command execution, %price > Money necessary for execute the command
+  no-enough-money: "&cVous n'avez pas assez d'argent pour obtenir une bouteille de %level% niveaux. Argent nécessaire : %price%"
+
+item:
+  # Configure here the different name or lors of the differents level bottle. Color codes '&' accepted. Use \\n for pass lines in the bottle lore.
+  # Do not touch this name when bottle already presents in you'r server because the old ones won't work anymore. the lore can be touched without worries, this if is not verified during the interaction between the player and the bottle. 
+  bottle-lvl-10-name: "&6&l★ Bouteille de 10 niveaux d'XP ★"
+  bottle-lvl-10-lore: "\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*\\n&6Bouteille contenant 10 niveaux d'XP.\\n&7Cliquez pour les récupérer.\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a"
+  bottle-lvl-20-name: "&c&l★ Bouteille de 20 niveaux d'XP ★"
+  bottle-lvl-20-lore: "\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*\\n&6Bouteille contenant 20 niveaux d'XP.\\n&7Cliquez pour les récupérer.\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a"
+  bottle-lvl-30-name: "&4&l★ Bouteille de 30 niveaux d'XP ★"
+  bottle-lvl-30-lore: "\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*\\n&6Bouteille contenant 30 niveaux d'XP.\\n&7Cliquez pour les récupérer.\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a"
+  bottle-lvl-50-name: "&2&l★ Bouteille de 50 niveaux d'XP ★"
+  bottle-lvl-50-lore: "\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*\\n&6Bouteille contenant 50 niveaux d'XP.\\n&7Cliquez pour les récupérer.\\n&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a*&7-&a"
